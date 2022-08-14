@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zone</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__container">
+                <div class="logo">
+                    <img class="logo__image" src="./public/logo.svg" alt="Logo">
+                    <p class="logo__text">Zone.</p>
+                </div>
+                <div class="header__content">
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#">Home</a></li>
+                            <li class="menu__item"><a href="#">About Us</a></li>
+                            <li class="menu__item"><a href="#">Service</a></li>
+                            <li class="menu__item"><a href="#">Pricing</a></li>
+                            <li class="menu__item"><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__actions">
+                        <button class="header__button button">Contact us</button>    
+                        <button class="burger" onclick="toggleMenu()"><span></span></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="virtual">
+                <div class="virtual__container">
+                    <div class="virtual__content">
+                        <h1>Virtual Reality Business Solutions</h1>
+                        <p>We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business consultting arena and artficial intelligence.</p>
+                        <div class="virtual__actions">
+                            <button class="button virtual__button">Join Us</button>
+                            <button class="video-button">
+                                <img src="./public/play.svg" alt="Play">
+                                Watch video
+                            </button>
+                        </div>                    
+                    </div>
+                    <div class="virtual__media">
+                        <img src="./public/virtual-guy.png" alt="Virtual-image">
+                    </div>
+                </div>
+            </section>
+            <section class="service">
+                <div class="service__container">
+                    <h2>Our Service</h2>
+                    <p>
+                        We turn information into actionable insights. We work to understand your issues
+                        <br id="br">
+                        and are driven to ask better questions in the pursuit of making work.
+                    </p>
+                    <div class="cards">
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/order-management.png" alt="Icon">
+                            <h3>Order Management</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div>
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/social-assistant.png" alt="Icon">
+                            <h3>Social Assistant</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div>
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/crypto-plaform.png" alt="Icon">
+                            <h3>Crypto Platform</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div>
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/smart-trading.png" alt="Icon">
+                            <h3>Smart Trading Modules</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div> 
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/analyzer.png" alt="Icon">
+                            <h3>Analyzer of the News</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div>
+                        <div class="card service-card">
+                            <img src="./public/service-block-icons/module-of-price-notification.png" alt="Icon">
+                            <h3>Module of Price Notification</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <a href="#" class="learn-more">Learn more <img src="./public/group.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="complete">
+                <div class="complete__container">
+                    <div class="complete__block" id="first">
+                        <div class="complete__media">
+                            <img src="./public/complete-block-images/first-man.png" alt="Media">
+                        </div>
+                        <div class="complete__content">
+                            <h2>We complete every projects extra care as customer need</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+                            <button class="button complete__button">Read More</button>
+                        </div>
+                    </div>
+                    <div class="complete__block">
+                        <div class="complete__content">
+                            <h2>We complete every projects extra care as customer need</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+                            <button class="button complete__button">Read More</button>
+                        </div>
+                        <div class="complete__media">
+                            <img src="./public/complete-block-images/second-man.png" alt="Media">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="team__container">
+                    <h2>Met Our Team</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis <br id="br">
+                        accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+                    </p>
+                    <div class="cards team__cards">
+                        <div class="card team__card">
+                            <img class="card__photo" src="./public/team-photos/sunny-khan.png" alt="Sunny Khan">
+                            <div class="card__content">
+                                <h3>Sunny Khan</h3>
+                                <p class="card__profession">Executive officer</p>
+                                <div class="card__social-media-icons">
+                                    <a href="#"><img src="./public/team-social-media-icons/skype.png" alt="Skype"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/linkedin.png" alt="Linkedin"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/facebook.png" alt="Facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card team__card">
+                            <img class="card__photo" src="./public/team-photos/alina-jesia.png" alt="Alina Jesia">
+                            <div class="card__content">
+                                <h3>Alina Jesia</h3>
+                                <p class="card__profession">UX/UI DESIGNER</p>
+                                <div class="card__social-media-icons">
+                                    <a href="#"><img src="./public/team-social-media-icons/skype.png" alt="Skype"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/linkedin.png" alt="Linkedin"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/facebook.png" alt="Facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card team__card">
+                            <img class="card__photo" src="./public/team-photos/alex-sohag.png" alt="Alex Sohag">
+                            <div class="card__content">
+                                <h3>Alex Sohag</h3>
+                                <p class="card__profession">BUSINESS DEVELOPMENT</p>
+                                <div class="card__social-media-icons">
+                                    <a href="#"><img src="./public/team-social-media-icons/skype.png" alt="Skype"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/linkedin.png" alt="Linkedin"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/facebook.png" alt="Facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card team__card">
+                            <img class="card__photo" src="./public/team-photos/afroza-mou.png" alt="Afroza Mou">
+                            <div class="card__content">
+                                <h3>Afroza Mou</h3>
+                                <p class="card__profession">Head of marketing</p>
+                                <div class="card__social-media-icons">
+                                    <a href="#"><img src="./public/team-social-media-icons/skype.png" alt="Skype"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/linkedin.png" alt="Linkedin"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img src="./public/team-social-media-icons/facebook.png" alt="Facebook"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe">
+                <div class="subscribe__container">
+                    <div class="card">
+                        <h2>Subscribe to get the Latest News</h2>
+                        <p>We recommended you to subscribe to our newspaper, drop your email below to get daily update about us</p>
+                        <form action="#" class="subscribe__form">
+                            <input type="email" placeholder="Enter your email address">
+                            <button type="submit" class="button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="links">
+                <div class="links__container">
+                    <nav class="footer__menu">
+                        <address>
+                        <div class="logo footer__logo">
+                            <img class="logo__image" src="./public/logo.svg" alt="Logo">
+                            <p class="logo__text">Zone.</p>
+                        </div>
+                        <div class="address__block">
+                            <img src="./public/footer/address-icons/Location.png" alt="Place">
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="address__block">
+                            <img src="./public/footer/address-icons/Calling.png" alt="Phone">
+                            <p>0943833399</p>
+                        </div>
+                        <div class="address__block">
+                            <img src="./public/footer/address-icons/Message.png" alt="Mail">
+                            <p>support@zone.com</p>
+                        </div>
+                        <div class="footer__social-media-icons">
+                            <a href="#"><img src="./public/footer/social/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="./public/footer/social/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="./public/footer/social/instagram.png" alt="Instagram"></a>
+                            <a href="#"><img src="./public/footer/social/pinterest.png" alt="Pinterest"></a>
+                        </div>
+                    </address>
+                        <div class="footer__menu-list">
+                            <ul>
+                                <li><h4>Service</h4></li>
+                                <li><a href="#">Order Management</a></li>
+                                <li><a href="#">Social Assistant</a></li>
+                                <li><a href="#">Crypto Platform</a></li>
+                                <li><a href="#">Analyzer of the News</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu-list">
+                            <ul>
+                                <li><h4>Company</h4></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Our trusted partner</a></li>
+                                <li><a href="#">New users FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu-list">
+                            <ul>
+                                <li><h4>Supports</h4></li>
+                                <li><a href="#">Help center</a></li>
+                                <li><a href="#">Feedback</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Terms & conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu-list">
+                            <ul>
+                                <li><h4>Resources</h4></li>
+                                <li><a href="#">Download app</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">What's new</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>                        
+                    </nav>
+                </div>
+            </section>
+            <section class="copyright">
+                <div class="copyright__container">
+                    <span class="copyright__label">
+                        © 2021 Zone. - All rights reserved.
+                    </span>
+                    <span class="copyright__links">
+                        <a href="#">Privacy</a>
+                        <a href="#">Security</a>
+                        <a href="#">Terms</a>
+                    </span>
+                </div>
+            </section>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
